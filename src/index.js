@@ -6,14 +6,9 @@ import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
-    
-        <Router>
-        	<div className="ldt-blur-in">
-		        <div className="Block1" >
-	                <App />
-	            </div>
-            </div>
-        </Router>
+    <Router>
+        <App />
+    </Router>
     ,document.getElementById('root')
 );
 

@@ -7,11 +7,9 @@ class NotFound extends Component {
     render () {
         return (
         	<div className="Error">
-        		<div className="ldt-fade-in">
-	                <h1><b>Oops Error: Not Found</b></h1>
-	                <hr/>
-	                <img src={error} />
-	            </div>
+                <br/><br/>
+                <h1><b>Oops Error: Not Found</b></h1>
+                <img src={error} />
             </div>
         )
     }

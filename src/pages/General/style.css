@@ -1,0 +1,46 @@
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itemBlock {
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
+    text-decoration: none;
+}
+
+.itemBlock > img {
+    width: 100%;
+}
+
+.textBlock {
+    height: 40px;
+    color: #454646;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 7px;
+    overflow: hidden;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.active > a {
+    color: #83a1af;
+    text-decoration: underline;
+}
+
+.pagination > li {
+    width: 70px;
+}

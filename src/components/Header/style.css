@@ -2,9 +2,6 @@
 
 .header {
     height: 80px;
-    background-color: #293b5a;
-    margin-top: 100px;
-    border-radius: 10px 10px 0 0;
 }
 
 .navList {
@@ -15,21 +12,16 @@ ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
-    width: 980px;
-}
-
-li {
-    float: left;
-    margin-left: 65px;
 }
 
 li a {
     display: inline-block;
-    color: white;
+    color: dimgrey;
     text-align: center;
-    padding: 14px 25px;
+    padding: 5px 25px;
     text-decoration: none;
     position: relative;
+    font-size: 22px;
 }
 
 a.effect-underline:after {
