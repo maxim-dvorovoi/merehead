@@ -39,7 +39,6 @@ class Profile extends Component {
             }).then(res => {
             return res.json()
         }).then(response => {
-            console.log(response)
             this.setState({
                 data: response.users.slice(this.state.offset, this.state.offset + 5),
                 activeLoader: false,
@@ -60,7 +59,6 @@ class Profile extends Component {
 
     render () {
         const {data} = this.state
-        console.log(this.state.offset)
 
         return (
             <div>
