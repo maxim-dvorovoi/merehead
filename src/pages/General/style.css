@@ -43,4 +43,13 @@
 
 .pagination > li {
     width: 70px;
+    cursor: pointer;
+}
+
+.button {
+    transition: 0.5s;
+}
+
+.button:hover {
+    opacity: 0.85;
 }

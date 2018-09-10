@@ -69,8 +69,7 @@ class Profile extends Component {
                     {
                         data.map((item, index) => {
                             return (
-                                <Link
-                                    to={`/article/${item.id}`}
+                                <a
                                     className="itemBlock"
                                     key={index}
                                 >
@@ -82,7 +81,7 @@ class Profile extends Component {
                                     </div>
                                     <button className="button">Далі</button>
 
-                                </Link>
+                                </a>
                             )
                         })
                     }
